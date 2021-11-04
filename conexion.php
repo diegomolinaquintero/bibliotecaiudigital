@@ -1,10 +1,10 @@
 <?php
     class BD{
         public function conexion(){
-            $dbn ="bibliotecaiudigital";
-            $host = "mysql:host=localhost;dbname=".$dbn;
-            $user = "root";
-            $password = "";
+            $dbn ="RmkG1NAmte";
+            $host = "mysql:host=remotemysql.com; port=3306; dbname=".$dbn;
+            $user = "RmkG1NAmte";
+            $password = "THS7ImdJdi";
             $attr = [PDO::ATTR_PERSISTENT => true];
            
             try {
